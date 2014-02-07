@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Noticias</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.4.0.min.css">
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.0.min.js"></script>
+</head>
+<body>
+	<!--Actualidad-->
+    <div data-role="page" id="actualidad" data-position="fixed">
+        <div data-role="header" data-position="fixed">
+            <h1>Actualidad</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>
+            	<ul data-role="listview" data-inset="true">
+                    <li><a href="#jurados" data-transition="slideup" data-rel="dialog">
+                        <center><img src="http://www.uniminuto.edu/documents/39751/0/banner%20votaciones.png?t=1391631916279" width="100%"></center>
+                        <h2>Jurados de Votación</h2>
+                        <p></p></a>
+                    </li>
+                    <li><a href="#jornada" data-transition="slideup" data-rel="dialog">
+                        <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006543551&t=1390923555707" width="100%"></center>
+                        <h2>III Jornada de Grupos y Semilleros de Investigación</h2>
+                        <p></p></a>
+                    </li>
+                </ul>
+           	</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+                <ul>
+                    <li><a href="#" data-icon="star" class="ui-btn-active">Actualidad</a></li>
+                    <li><a href="#noticias" data-icon="check" data-transition="flow">Noticias</a></li>
+                    <li><a href="#convocatorias" data-icon="plus" data-transition="flow">Convocatorias</a></li>
+                    <li><a href="#siguenos" data-icon="gear" data-transition="flow">Síguenos</a></li>
+                </ul>
+            </div>
+    	</div>
+    </div>
+    <!--Noticias-->
+    <div data-role="page" id="noticias">
+        <div data-role="header">
+            <h1>Noticias</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>
+            	<div data-role="collapsible" data-iconpos="right">
+                    <h4>Sede Cundinamarca</h4>
+                    <p>
+                    	<ul data-role="listview" data-inset="true">
+                            <li><a href="#mintic" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006367635&t=1390333926152" width="100%"></center>
+                            	<h2>MinTIC Abre Convocatoria para Financiar más Carreras Técnicas y Tecnologías en TI</h2>
+                            	<p>Redacción: MinTIC</p></a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            	<div data-role="collapsible" data-iconpos="right">
+                    <h4>Centro Regional Girardot</h4>
+                    <p>
+                    	<ul data-role="listview" data-inset="true">
+                            <li><a href="#excelencia" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006261628&t=1389973488685" width="100%"></center>
+                            	<h2>La Excelencia es Premiada en UNIMINUTO</h2>
+                            	<p>Redacción: C.S.P. Martha Herrera</p></a>
+                            </li>
+                            <li><a href="#macrosistemas" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006262026&t=1389974280190" width="100%"></center>
+                            	<h2>UNIMINUTO Hizo Presencia en la Feria de Macrosistemas de Negocios en Girardot con el "Proyecto Natural Sábila"</h2>
+                            	<p>Redacción: C.S.P. Andrea del Pilar Castaño</p></a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            	<div data-role="collapsible" data-iconpos="right">
+                    <h4>Centro Regional Madrid</h4>
+                    <p>
+                    	<ul data-role="listview" data-inset="true">
+                            <li><a href="#segunda" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006262437&t=1389974817698" width="100%"></center>
+                            	<h2>Segunda Certificación Microsoft para Estudiante de Madrid</h2>
+                            	<p>Redacción: Juan Miguel Florido Torres</p></a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            	<div data-role="collapsible" data-iconpos="right">
+                    <h4>Centro Regional Soacha</h4>
+                    <p>
+                         <ul data-role="listview" data-inset="true">
+                            <li><a href="#lengua" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006261871&t=1389973940074" width="100%"></center>
+                            	<h2>Una Segunda Lengua con Opción al Futuro</h2>
+                            	<p>Redacción: Diego Jaramillo Gutiérrez</p></a>
+                            </li>
+                            <li><a href="#sensibilizar" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006261856&t=1389973922573" width="100%"></center>
+                            	<h2>Sensibilizar No Solo una Palabra</h2>
+                            	<p>Redacción: Anyela Castillo R.</p></a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            	<div data-role="collapsible" data-iconpos="right">
+                    <h4>Centro Regional Zipaquirá</h4>
+                    <p>
+                    	<ul data-role="listview" data-inset="true">
+                            <li><a href="#electiva" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006552180&t=1390937709461" width="100%"></center>
+                            	<h2>Electiva CMD Ingenieros Sin Fronteras</h2>
+                            	<p>Redacción: Sede Cundinamarca</p></a>
+                            </li>
+                            <li><a href="#prospera" data-transition="slideup" data-rel="dialog">
+                                <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006262455&t=1389974844909" width="100%"></center>
+                            	<h2>Colombia Prospera</h2>
+                            	<p>Redacción: Laura Murcia</p></a>
+                            </li>
+                		</ul>
+                    </p>
+                </div>
+            </p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+                <ul>
+                    <li><a href="#actualidad" data-icon="star" data-transition="flow">Actualidad</a></li>
+                    <li><a href="#" data-icon="check" class="ui-btn-active">Noticias</a></li>
+                    <li><a href="#convocatorias" data-icon="plus" data-transition="flow">Convocatorias</a></li>
+                    <li><a href="#siguenos" data-icon="gear" data-transition="flow">Síguenos</a></li>
+                </ul>
+            </div>
+    	</div>
+    </div>
+    <!--convocatorias-->
+    <div data-role="page" id="convocatorias">
+        <div data-role="header">
+            <h1>Convocatorias</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>
+            	<ul data-role="listview" data-inset="true">                    
+                	<li><a href="#jornada" data-transition="slideup" data-rel="dialog">
+                        <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006543551&t=1390923555707" width="100%"></center>
+                        <h2>III Jornada de grupos y semilleros de investigación</h2>
+                        <p></p></a>
+                    </li>
+                </ul>
+           	</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+                <ul>
+                    <li><a href="#actualidad" data-icon="star" data-transition="flow">Actualidad</a></li>
+                    <li><a href="#noticias" data-icon="check" data-transition="flow">Noticias</a></li>
+                    <li><a href="#" data-icon="plus" class="ui-btn-active">Convocatorias</a></li>
+                    <li><a href="#siguenos" data-icon="gear" data-transition="flow">Síguenos</a></li>
+                </ul>
+            </div>
+    	</div>
+    </div>
+    <!--Síguenos-->
+    <div data-role="page" id="siguenos">
+        <div data-role="header">
+            <h1>Síguenos</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <center><p>
+            	<table border="0">
+                	<tr>
+                    	<td><a href="http://facebook.com/uniminuto.cundinamarca" target="new"><img src="images/iconos sociales-01.png" width="100%"></a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    	<td><a href="http://twitter.com/UMDCundinamarca" target="new"><img src="images/iconos sociales-02.png" width="100%"></a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://youtube.com/SedeCundinamarca" target="new"><img src="images/iconos sociales-03.png" width="100%"></a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    	<td><a href="http://soundcloud.com/sede-cundinamarca-1" target="new"><img src="images/iconos sociales-06.png" width="100%"></a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://cundinamarca.uniminuto.edu" target="new"><img src="images/iconos sociales-05.png" width="100%"></a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    	<td><a href="#informacion" data-rel="dialog" data-transition="fade"><img src="images/iconos sociales-04.png" width="100%"></a></td>
+                    </tr>
+                </table>
+        	</p></center>
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+                <ul>
+                    <li><a href="#actualidad" data-icon="star" data-transition="flow">Actualidad</a></li>
+                    <li><a href="#noticias" data-icon="check" data-transition="flow">Noticias</a></li>
+                    <li><a href="#convocatorias" data-icon="plus" data-transition="flow">Convocatorias</a></li>
+                    <li><a href="#" data-icon="gear" class="ui-btn-active">Síguenos</a></li>
+                </ul>
+            </div>
+    	</div>
+    </div>
+    <!--informacion-->
+    <div data-role="page" id="informacion">
+        <div data-role="header">
+            <h1>Información</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <center><p></p></center>
+        </div>
+    </div>
+    <!--Noticia MinTIC-->
+    <div data-role="page" id="mintic">
+        <div data-role="header">
+            <h1>MinTIC</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>MinTIC Abre Convocatoria para Financiar más Carreras Técnicas y Tecnologías en TI</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006367635&t=1390333926152" width="100%"></center>
+            <p style="text-align:justify">El Ministerio de las TIC abrió la cuarta convocatoria de Talento Digital para financiar a estudiantes interesados en carreras técnicas y tecnológicas en áreas TI.<br><br>Con esta nueva convocatoria el Ministerio TIC quiere incrementar el número de beneficiarios, que actualmente son más de 3.000, y dar especial prioridad a jóvenes que quieran cursar carreras técnicas relacionadas con el desarrollo de software y aplicaciones informáticas, gestión de proyectos de TI, control y aseguramiento de calidad en TI, arquitecturas y seguridad en TI, videojuegos, en mercadeo, venta consultiva, comercialización y gestión de ventas en TI.<br><br>Para garantizar que los becarios se puedan certificar internacionalmente la convocatoria señala como requisito que las instituciones educativas donde adelantarán los estudios deben tener convenio vigente con alguna de estas empresas de tecnología: Microsoft, Oracle, SAP, ADOBE Y BLACKBERRY. Esto indica que el titulo formal estará complementado de una certificación internacional lo que mejorará el perfil profesional del estudiante.<br><br>
+<a href="http://www.mintic.gov.co/index.php/prensa/noticias/2840-mintic-abre-convocatoria-para-financiar-mas-carreras-tecnicas-y-tecnologias-en-areas-ti" target="new">Mayor Información click aquí</a></p>
+        </div>
+    </div>
+    <!--Excelencia Premiada en UNIMINUTO-->
+    <div data-role="page" id="excelencia">
+        <div data-role="header">
+            <h1>Excelencia</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>La Excelencia es Premiada en UNIMINUTO</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006261628&t=1389973488685" width="100%"></center>
+            <p style="text-align:justify">En UNIMINUTO Centro Regional Girardot se premió a los mejores, fue un evento en el que se resaltó el mérito académico, que sirve como ejemplo tangible para que otros lo vean como modelo a seguir y se exijan en su rendimiento.<br><br>El pasado 27 de noviembre en el auditorio de la Corporación Universitaria Minuto de Dios Centro Regional Girardot se llevó a cabo la Noche de la Excelencia, ceremonia que tiene como objetivo hacer un reconocimiento público a los estudiantes académicamente sobresalientes, a los mejores profesores y a los investigadores más destacados de la Institución. La Ingeniera María Teresa Restrepo Hernández, Directora del Centro Regional, fue la encargada de entregar la distinción a los premiados por obtener un promedio superior a 4.5 en su desempeño académico. Los estudiantes Johana Paola Casallas Rodríguez, Juan Manuel Santos Murillo y Andrés Felipe Hernández  Aponte, fueron premiados por su esfuerzo con Matrícula de Honor para periodo el 2013-II.<br><br>Al evento asistieron estudiantes de los diferentes semestres y se presentó el Grupo de Danzas Folclóricas de UNIMINUTO dirigido por la docente Mónica Vargas Tapiero.<br><br>Así mismo, cabe resaltar que al evento también asistieron los padres y familiares de los estudiantes premiados, quienes se vincularon a los aplausos, emoción y alegría que generó este sencillo pero merecido reconocimiento.<br><br>Redacción: C.S.P. Martha Herrera / Monitora Laboratorios Radio y Tv de UNIMINUTO Centro Regional Girardot / mlherreragu@hotmail.com</p>
+        </div>
+    </div>
+    <!--Feria de Macrosistemas-->
+    <div data-role="page" id="macrosistemas">
+        <div data-role="header">
+            <h1>Feria de Macrosistemas</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>UNIMINUTO Hizo Presencia en la Feria de Macrosistemas de Negocios en Girardot con el "Proyecto Natural Sábila"</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006262026&t=1389974280190" width="100%"></center>
+            <p style="text-align:justify">Uno de los eventos que se llevó a cabo en el marco del la Feria Macrosistema de Negocios en Girardot del 12 al 17 de noviembre del año en curso, fue la Rueda de Negocios en el ámbito Agroindustrial.  UNIMINUTO Centro Regional Girardot  estuvo representada por el proyecto Natural Sábila, grupo conformado por estudiantes del programa de Tecnología en Informática de cuarto semestre de la jornada diurna, esta iniciativa surge de la Asignatura Práctica en Responsabilidad Social, orientada por la docente Sonia Chávez, con el acompañamiento del Coordinador del CUE, Mg. Gustavo Alonso Reyes.<br><br>El objetivo del proyecto es implementar en la región una empresa procesadora de sábila que tome la materia prima, se le realice un proceso de extracción del aloe vera y se comercialice con las empresas productoras; además tienen un subproyecto, en aras de implementar un producto para las quemaduras solares de segundo grado, teniendo en cuenta que la sábila tiene propiedades curativas, humectantes y regenerativas.<br><br>Estos jóvenes innovadores tuvieron un acercamiento con una representante de la Secretaría de Ciencia, Tecnología e Innovación de la Gobernación de Cundinamarca, Doctora Nury Stella Prieto, a quien le presentaron el proyecto así como a un represente de la Gobernación de Antioquia; lo que harán estas dependencias es analizar lo planteado por los oferentes, para revisar la posibilidad de cofinanciación, apoyo técnico y Certificaciones con el proyecto Ceiba de la Gobernación de Cundinamarca.<br><br>Redacción: C.S.P. Andrea del Pilar Castaño /  Coordinadora Mercadeo y Comunicaciones Centro Regional Girardot / 3134704694 / acastano@uniminuto.edu<br><br>Fuente primaria: Grupo Proyecto Natural Sábila – Líder del grupo: Jhon Jairo Ortiz Suárez jortizsusare@uniminuto.edu.co /  321 4903139</p>
+        </div>
+    </div>
+    <!--Segunda Certificación-->
+    <div data-role="page" id="segunda">
+        <div data-role="header">
+            <h1>Segunda Certificación</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>Segunda Certificación Microsoft para Estudiante de Madrid</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006262437&t=1389974817698" width="100%"></center>
+            <p style="text-align:justify">Alexander Vargas, estudiante de VI semestre de Ingeniería de Sistemas de UNIMINUTO Ceres Sabana de Occidente, obtuvo la certificación MCP (Microsoft Certified Professional) en el marco del Programa "Apps.co" del Ministerio TIC durante el mes de agosto.<br><br>El proceso liderado de la marca Microsoft en Colombia y apoyado por el Ministerio TIC se basaba en convocar a los interesados en capacitarse 15 días acerca de programación en su sistema operativo Windows 8. Al final del periodo de capacitación, los aspirantes debían presentar un examen en el que lograr una alta calificación les otorgaría la certificación de Microsoft que los avala como programadores de nuevos aplicativos para su más reciente sistema operativo. Este título no es solo un reconocimiento al intelecto y disciplina de Alexander, además se convierte en incentivo de proyección laboral dentro de esta importante empresa de recursos tecnológicos a nivel mundial.<br><br>Con este logro, Alexander Vargas se convierte en el segundo estudiante del Ceres Sabana de Occidente en recibir esta certificación, insignia que también fue alcanzada por Melissa Pinzón, estudiante de VI semestre de Ingeniería de Sistemas, durante el pasado mes de mayo.<br><br>"El avance en estos aspectos académicos se debe al reconocimiento e impulso de las iniciativas de los estudiantes que adelanta UNIMINUTO Sede Cundinamarca en cada uno de los municipios del departamento. Articular las oportunidades que nos brindan algunas entidades gubernamentales con la proyección de las acciones del aula es uno de los principales mecanismos para explotar el creciente intelecto e indiscutible talento de todos nuestros estudiantes" exaltó Luis Carlos Gutiérrez, Director del Ceres Sabana de Occidente.<br><br>Juan Miguel Florido Torres<br>Coordinador de mercadeo y comunicaciones<br>Ceres Sabana de Occidente<br>UNIMINUTO - Sede Cundinamarca</p>
+        </div>
+    </div>
+    <!--Segunda Lengua-->
+    <div data-role="page" id="lengua">
+        <div data-role="header">
+            <h1>Segunda Lengua</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>Una Segunda Lengua con Opción al Futuro</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006261871&t=1389973940074" width="100%"></center>
+            <p style="text-align:justify">En el marco de la semana del Desarrollo Humano y Social se llevó a cabo la acostumbrada muestra cultural llamada English Day.<br><br>Por parte del área de inglés en donde los estudiantes del Centro Regional Soacha dramatizaron diferentes películas con la creatividad e imaginación puesta a prueba y con el reto de poder representar cada personaje en una segunda lengua desarrollando así  todo lo aprendido en el aula.<br><br>Este proceso cuenta con el apoyo y supervisión de todos los docentes de esta área donde ellos cumplen el papel de guiar a los estudiantes en esta dedicada labor.<br><br>Diego Jaramillo Gutiérrez<br>Comunicador Social – Periodista<br>Centro Regional Soacha</p>
+        </div>
+    </div>
+    <!--Sensibilizar-->
+    <div data-role="page" id="sensibilizar">
+        <div data-role="header">
+            <h1>sensibilizar</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>Sensibilizar No Solo una Palabra</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006261856&t=1389973922573" width="100%"></center>
+            <p style="text-align:justify">En el marco de la Semana del Desarrollo Humano y Social por parte del programa de inclusión del área de Permanencia Estudiantil se generaron estrategias que contribuyen a la sensibilización institucional, apoyo y acompañamiento a diferentes estudiantes en condición de discapacidad fomentando de esta manera que su experiencia y permanencia universitaria sea cada vez más eficiente.<br><br>Así mismo se implementaron algunos juegos de roles que permitieron la participación de docentes y administrativos experimentando alguna limitación en sus actividades diarias por un tiempo determinado para poder entender a quienes hoy por alguna circunstancia de la vida están en una condición de discapacidad.<br><br>Es importante resaltar que en el Centro Regional Soacha existen 42 estudiantes en condición de discapacidad, y con ellos se realizan estrategias de apoyo, acompañamiento y seguimiento, que incluye, orientación psicológica, intervención individual y grupal, seguimiento académico, orientación familiar y apoyo en condiciones institucionales.<br><br>Anyela Castillo R.<br>Comunicadora Social – Periodista<br>Centro Regional Soacha</p>
+        </div>
+    </div>
+    <!--ISF-->
+    <div data-role="page" id="electiva">
+        <div data-role="header">
+            <h1>Electiva</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>Electiva CMD Ingenieros Sin Fronteras</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006552180&t=1390937709461" width="100%"></center>
+            <p style="text-align:justify">El objeto de curso es entender la ingeniería en función de la sociedad y cómo se puede participar activamente en la ayuda de las comunidades más necesitadas.<br><br>El curso se hará énfasis en el Método de Marco Lógico para la formulación de proyectos y se desarrollará por medio de conferencias con ingenieros de diferentes ramas, que han realizado proyectos que buscan  mejorar las condiciones de vida de las comunidades más vulnerables.<br><br>Este curso está dirigido para todos los estudiantes de Tecnologías, Ciencias Humanas, Ciencias Administrativas, Licenciaturas e Ingenierías del Centro Regional Zipaquirá.<br><br>Al finalizar los estudiantes que quieran ser parte de Ingenieros Sin Fronteras Colombia se les certificará el curso, el cual les da derecho a ser miembros activos de este grupo.<br><br>NRC:34197<br>Horario: Viernes de 6:15 p.m. a 7:45 p.m.</p>
+        </div>
+    </div>
+    <!--Colombia Prospera-->
+    <div data-role="page" id="prospera">
+        <div data-role="header">
+            <h1>Colombia</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>Colombia Prospera</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006262455&t=1389974844909" width="100%"></center>
+            <p style="text-align:justify">El pasado 12 de agosto de 2013 en la biblioteca pública del Municipio de Zipaquirá, UNIMINUTO – Sede Cundinamarca, Centro Regional Zipaquirá participó de la primera reunión de Colombia Prospera.<br><br>Un programa del Ministerio de Comercio, Industria y Turismo, que tiene como propósito desarrollar acciones con enfoque diferencial en las regiones, a través de la articulación de la oferta del Sector Comercio, Industria y Turismo, para contribuir a la competitividad y desarrollo empresaria en los departamentos de Colombia.<br><br>Colombia Prospera no es sólo un evento, es un programa que desarrolla una serie de actividades, en un tiempo limitado por departamento, que sumado a un Gran Evento Empresarial y le permite a los actores regionales interactuar con los instrumentos que ofrece el Sector Comercio, Industria y Turismo para el desarrollo empresarial.<br><br>Laura Murcia<br>Coordinadora CUE<br>Centro Regional zipaquirá</p>
+        </div>
+    </div>
+    <!--jurados-->
+    <div data-role="page" id="jurados">
+        <div data-role="header">
+            <h1>Jurados</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>Jurados de Votación</H2></center>
+            <center><img src="http://www.uniminuto.edu/documents/39751/0/banner%20votaciones.png?t=1391631916279" width="100%"></center>
+            <p style="text-align:justify">Se le informa a toda la comunidad académica, estudiantes, docentes y administrativos que ya  pueden consultar si fueron designados como jurados de votación para las elecciones de Congreso de la República y Parlamento Andino que se realizarán el domingo 09 de marzo en Colombia.<br><br>La consulta la pueden realizar ingresando a <a href:http://"www.registraduria.gov.co">www.registraduria.gov.co</a> y en el banner "consulte si es jurado de votación" digitar el número de la cédula. Ahí conocerá el puesto y la mesa de votación en donde debe prestar su servicio el próximo 9 de marzo.<br><br>Es importante que consulte con anterioridad si es o no designado como jurado de votación. Las personas notificadas y que sin justa causa no concurran a desempeñar las funciones de jurado o las abandonen, se harán acreedoras a una multa impuesta por la Registraduría Nacional  equivalente hasta 10 salarios mínimos legales vigentes. Para mayor información consulte <a href="http://www.registraduria.gov.co/-Jurados-de-Votacion,1093-.html">Jurados de Votación.</a><br><br>La Registraduría Nacional para la designación de los jurados de votación realizó un sorteo aleatorio, el cual se hace por medio de un software alimentado con las listas de partidos y movimientos políticos que participarán en los comicios, empresas públicas, privadas e instituciones educativas.<br><br>Este software asignó la mesa y el puesto de votación en donde el ciudadano prestará el servicio. Adicionalmente, el sistema asignó el lugar en donde se debe presentar para asistir a las capacitaciones de jurados de votación que por Ley, tienen carácter obligatorio.</p>
+        </div>
+    </div>
+    <!--jornada-->
+    <div data-role="page" id="jornada">
+        <div data-role="header">
+            <h1>III Jornada</h1>
+        </div>
+        <div role="main" class="ui-content">
+        	<center><H2>III Jornada de Grupos y Semilleros de Investigación</H2></center>
+            <center><img src="http://www.uniminuto.edu/image/journal/article?img_id=1000006543551&t=1390923555707" width="100%"></center>
+            <p style="text-align:justify">Ciencia, tecnología, innovación y sociedad.<br><br><b>Introducción:</b><br><br>La Rectoría General a través de la Vicerrectoria General Académica y la Dirección General de Investigaciones convoca a toda la comunidad académica de UNIMINUTO a participar en estas III jornadas que se realizaran  los días 24,25 y 26 de abril del 2014 en la ciudad de Bogotá.<br><br>Estas jornadas se inscriben dentro de una tradición  que comienza a consolidarse  constituida por el I Encuentro de Investigación del Sistema UNIMINUTO que se realizó en el año 2009, en el I Simposio Internacional de Innovación Social en el 2012 y en las II Jornadas de Investigación y Semilleros de Investigación: Ciencia, Tecnología, Innovación y Sociedad – UNIMINUTO realizada en abril del 2013 y los encuentros académicos de investigación y de semilleros que han realizado cada una de las sedes en los últimos años1.<br><br><b>Objetivo:</b><br><br>Estas Jornadas de Investigación tienen como objetivo fortalecer la tarea investigativa  en  nuestra institución y dar a conocer los resultados de la I y II CONVOCATORIA PARA EL DESARROLLO Y FORTALECIMIENTO DE LA INVESTIGACION EN UNIMINUTO, los avances en investigación de las diferentes sedes y regionales de UNIMINUTO, así como compartir y reflexionar sobre los diferentes temas desarrollados. Para ello se convoca a participar a los actores investigativos principales (investigadores-docentes, docentes -investigadores, semilleros de investigación y jóvenes investigadores) organizados a través de grupos, semilleros y unidades académicas.<br><br><b>Fecha:</b> 24,25 y 26  de abril de 2014<br><b>Lugar:</b> UNIMINUTO Bogotá. B205 y C202 Sede Principal<br><br><a href="http://www.uniminuto.edu/-/iii-jornada-de-grupos-y-semilleros-de-investigacion?redirect=http%3A%2F%2Fwww.uniminuto.edu%2Finicio%3Fp_p_id%3D101_INSTANCE_91rCcUEPPE8g%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D3">Mayor Información</a></p>
+        </div>
+    </div>
+</body>
+</html>
