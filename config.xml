@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.uniminuto.noticias"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+	<!--Iconos e imagen de entrada-->
+	<icon src="icon.png" />
+	<!--IOS-->
+		<gap:splash src="images/ico-02.png" gap:platform="ios" width="320" height="480" />
+		<gap:splash src="images/ico-03.png" gap:platform="ios" width="640" height="960" />
+		<gap:splash src="images/ico-04.png" gap:platform="ios" width="640" height="1136" />
+		<gap:splash src="images/ico-07.png" gap:platform="ios" width="1024" height="748" />
+		<gap:splash src="images/ico-08.png" gap:platform="ios" width="768" height="1004" />
+		<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+		<gap:splash src="images/ico-09.png" gap:platform="ios" width="2048" height="1496" />
+		<gap:splash src="images/ico-10.png" gap:platform="ios" width="1536" height="2008" />
+		
+		<icon src="images/ico-01.png" gap:platform="ios" width="57" height="57" />
+		<icon src="images/ico-05.png" gap:platform="ios" width="72" height="72" />
+		<icon src="images/ico-06.png" gap:platform="ios" width="114" height="114" />
+		<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+		<icon src="images/ico-06.png" gap:platform="ios" width="144" height="144" />
+	<!--Android-->
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="xhdpi" />
+		
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="images/ico-03.png" gap:platform="android" gap:density="xhdpi" />
+	
+	
+	
+	<!--Elementos vaios-->
+    <name>Noticias</name>
+
+    <description>
+        Esta aplicación muestra las Noticias más importantes de UNIMINUTO - Sede Cundinamarca y al mismo tiempo las de sus Centros Regionales con tando las convocatorias y otros temas de interés. 
+    </description>
+
+    <author href="https://cundinamarca.uniminuto.edu" email="rmarentes@uniminuto.edu">
+        Andrés Marentes Hernández 
+    </author>
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<!--Preferencias-->
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	
+	<!--IOS--> 
+	<preference name="target-device" value="universal" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />
+	<preference name="detect-data-types" value="true" />
+	<preference name="exit-on-suspend" value="false" />
+	<feature name="NetworkStatus">
+    	<param name="ios-package" value="CDVConnection" />
+	</feature>
+	
+	<!--Android-->
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name="android-maxSdkVersion" value="15" />
+	<preference name="android-targetSdkVersion" value="12" />
+	<preference name="android-installLocation" value="auto" />
+	<preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+	<preference name="splash-screen-duration" value="10000"/>
+
+</widget>
